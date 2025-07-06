@@ -1,6 +1,8 @@
 name: Formatting check
 
 on:
+  push:
+    branches: ["*"]
   pull_request:
     branches: ["*"]
 
